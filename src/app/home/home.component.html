@@ -1,0 +1,112 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 ">
+      <div class="package" #package1 (click)="packageSelected(1)">
+        <div class="text-center" id="package-head1">
+          <h3>Basic</h3>
+          <div>
+            $2.95/Provider/Month
+          </div>
+          <div>
+            $12.95/Provider/Month
+          </div>
+
+        </div>
+        <div class="package-body" id="package-body1">
+          <p>
+            Develop single product
+          </p>
+          <p>
+            Up to 3 developers
+          </p>
+          <p>
+            Full source code[1]
+          </p>
+          <p>
+            Includes Metronic theme license
+          </p>
+        </div>
+        <div class="text-center radio-div">
+          <input type="radio" id="radiopackage1" name="radioGroup" value="package1" [(ngModel)]="selectedPackage" />
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="package" #package2 (click)="packageSelected(2)">
+        <div class="text-center" id="package-head2">
+          <h3>Pro</h3>
+          <div>
+            $3.95/Provider/Month
+          </div>
+          <div>
+            $30.95/Provider/Month
+          </div>
+        </div>
+        <div class="package-body" id="package-body2">
+          <p>
+            Develop single product
+          </p>
+          <p>
+            Up to 3 developers
+          </p>
+          <p>
+            Full source code
+          </p>
+          <p>
+            Includes Metronic theme license
+          </p>
+          <p>
+            1 year access to the latest source code
+          </p>
+          <p>
+            1 year forum support
+          </p>
+        </div>
+        <div class="text-center radio-div">
+          <input type="radio" id="radiopackage2" name="radioGroup" value="package2" [(ngModel)]="selectedPackage" />
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="package" #package3 (click)="packageSelected(3)">
+
+        <div class="text-center" id="package-head3">
+          <h3>Enteriprise</h3>
+          <div>
+            $4.95/Provider/Month
+          </div>
+          <div>
+            $48.95/Provider/Month
+          </div>
+        </div>
+        <div class="package-body" id="package-body3">
+          <p>
+            Develop single product
+          </p>
+          <p>
+            Up to 3 developers
+          </p>
+
+          <p>
+            Full source code[1]
+          </p>  <p>
+            Private ticket support
+          </p>
+          <p>
+            1 year access to the latest source code[2]
+          </p>
+          <p>
+            Includes Metronic theme license
+          </p>
+          <p>
+            1 year forum support
+          </p>
+        </div>
+        <div class="text-center radio-div">
+          <input type="radio" id="radiopackage3" name="radioGroup" value="package3" [(ngModel)]="selectedPackage" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
